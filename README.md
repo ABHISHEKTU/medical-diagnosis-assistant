@@ -10,11 +10,12 @@ AI-powered chest X-ray analysis using CNN, Grad-CAM explainability, and LLM-gene
 - PyTorch + ResNet50 (fine-tuned)
 - Grad-CAM explainability
 - LangChain + FAISS (RAG pipeline)
+- Groq/Llama3 LLM
 - FastAPI + React
 - MLflow + Docker
 
 ## Results
-- Validation Accuracy: 85.6%
+- Validation Accuracy: 85.9%
 - AUC-ROC: 0.94
 - Pneumonia Recall: 0.99 (catches 99% of sick patients)
 
@@ -24,6 +25,7 @@ medical-diagnosis-assistant/
 +-- notebooks/
 ¦   +-- day2_pytorch_basics.ipynb
 ¦   +-- day3_model.ipynb
+¦   +-- week2_rag.ipynb
 ¦   +-- gradcam_result.png
 ¦   +-- gradcam_normal.png
 +-- models/          # saved model weights (not tracked)
@@ -33,8 +35,8 @@ medical-diagnosis-assistant/
 
 ## Status
 - [x] Week 1: CNN theory + PyTorch fundamentals
-- [x] Week 1: ResNet50 fine-tuning + evaluation
-- [x] Week 2: Grad-CAM explainability
-- [ ] Week 3: LangChain + RAG pipeline
-- [ ] Week 4: FastAPI + React interface
-- [ ] Week 5: MLflow + Docker + Deploy
+- [x] Week 1: ResNet50 fine-tuning + evaluation (85.9% accuracy)
+- [x] Week 2: Grad-CAM explainability heatmaps
+- [x] Week 2: RAG pipeline with FAISS + Groq LLM
+- [ ] Week 3: FastAPI + React frontend
+- [ ] Week 4: MLflow + Docker + Deploy
