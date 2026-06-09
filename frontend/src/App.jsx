@@ -593,7 +593,7 @@ export default function App() {
       setTimeout(() => setLoadStep(3), 1800)
       const form = new FormData()
       form.append("file", file)
-      const res = await axios.post("http://127.0.0.1:8000/analyze", form)
+      const res = await axios.post("https://abhishektu-medical-diagnosis-backend.hf.space/analyze", form)
       setResult(res.data)
     } catch {
       setError("Connection failed — ensure backend is running on port 8000.")
