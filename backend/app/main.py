@@ -23,8 +23,20 @@ app.add_middleware(
 
 # Load model on startup
 device = torch.device('cpu')
+device = torch.device('cpu')
 model = models.resnet50(weights=None)
 model.fc = nn.Linear(2048, 2)
+
+# Load weights if available
+import os
+model_path = 'models/chest_xray_resnet50.pth'
+if os.path.exists(model_path):
+    model.load_state_dict(torch.load(model_path, map_location=device))
+    print("Model weights loaded!")
+else:
+    print("Warning: No model weights found - using random weights")
+
+model.eval()
 model.eval()
 
 CLASSES = ["NORMAL", "PNEUMONIA"]
