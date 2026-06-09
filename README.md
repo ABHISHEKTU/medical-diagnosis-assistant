@@ -2,9 +2,10 @@
 
 AI-powered chest X-ray analysis using CNN, Grad-CAM explainability, and LLM-generated diagnostic reports.
 
-## Demo
-![Pneumonia Detection](notebooks/gradcam_result.png)
-![Normal Detection](notebooks/gradcam_normal.png)
+## ðŸš€ Live Demo
+- **Frontend:** https://medical-diagnosis-assistant-gilt.vercel.app
+- **Backend API:** https://abhishektu-medical-diagnosis-backend.hf.space/docs
+- **Model:** https://huggingface.co/abhishektu/chest-xray-resnet50
 
 ## Tech Stack
 - PyTorch + ResNet50 (fine-tuned)
@@ -34,17 +35,17 @@ Backend: http://localhost:8000/docs
 \\\
 medical-diagnosis-assistant/
 +-- backend/
-¦   +-- app/main.py       # FastAPI + CNN + Grad-CAM
-¦   +-- Dockerfile
-¦   +-- requirements.txt
+ï¿½   +-- app/main.py       # FastAPI + CNN + Grad-CAM
+ï¿½   +-- Dockerfile
+ï¿½   +-- requirements.txt
 +-- frontend/
-¦   +-- src/App.jsx       # React UI
-¦   +-- Dockerfile
+ï¿½   +-- src/App.jsx       # React UI
+ï¿½   +-- Dockerfile
 +-- notebooks/
-¦   +-- day2_pytorch_basics.ipynb
-¦   +-- day3_model.ipynb
-¦   +-- week2_rag.ipynb
-¦   +-- week4_mlflow.py
+ï¿½   +-- day2_pytorch_basics.ipynb
+ï¿½   +-- day3_model.ipynb
+ï¿½   +-- week2_rag.ipynb
+ï¿½   +-- week4_mlflow.py
 +-- docker-compose.yml
 +-- README.md
 \\\
