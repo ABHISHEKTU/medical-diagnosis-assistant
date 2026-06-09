@@ -11,32 +11,46 @@ AI-powered chest X-ray analysis using CNN, Grad-CAM explainability, and LLM-gene
 - Grad-CAM explainability
 - LangChain + FAISS (RAG pipeline)
 - Groq/Llama3 LLM
-- FastAPI + React
-- MLflow + Docker
+- FastAPI backend
+- React + Vite frontend
+- MLflow experiment tracking
+- Docker + docker-compose
 
 ## Results
 - Validation Accuracy: 85.9%
 - AUC-ROC: 0.94
 - Pneumonia Recall: 0.99 (catches 99% of sick patients)
 
+## Quick Start
+\\\ash
+git clone https://github.com/ABHISHEKTU/medical-diagnosis-assistant
+cd medical-diagnosis-assistant
+docker-compose up --build
+\\\
+Frontend: http://localhost:80
+Backend: http://localhost:8000/docs
+
 ## Project Structure
 \\\
 medical-diagnosis-assistant/
++-- backend/
+¦   +-- app/main.py       # FastAPI + CNN + Grad-CAM
+¦   +-- Dockerfile
+¦   +-- requirements.txt
++-- frontend/
+¦   +-- src/App.jsx       # React UI
+¦   +-- Dockerfile
 +-- notebooks/
 ¦   +-- day2_pytorch_basics.ipynb
 ¦   +-- day3_model.ipynb
 ¦   +-- week2_rag.ipynb
-¦   +-- gradcam_result.png
-¦   +-- gradcam_normal.png
-+-- models/          # saved model weights (not tracked)
-+-- data/            # chest xray dataset (not tracked)
+¦   +-- week4_mlflow.py
++-- docker-compose.yml
 +-- README.md
 \\\
 
 ## Status
-- [x] Week 1: CNN theory + PyTorch fundamentals
-- [x] Week 1: ResNet50 fine-tuning + evaluation (85.9% accuracy)
-- [x] Week 2: Grad-CAM explainability heatmaps
-- [x] Week 2: RAG pipeline with FAISS + Groq LLM
-- [ ] Week 3: FastAPI + React frontend
-- [ ] Week 4: MLflow + Docker + Deploy
+- [x] Week 1: CNN + PyTorch + ResNet50 fine-tuning
+- [x] Week 2: Grad-CAM explainability + RAG pipeline
+- [x] Week 3: FastAPI + React frontend (hospital UI)
+- [x] Week 4: MLflow experiment tracking + Docker
