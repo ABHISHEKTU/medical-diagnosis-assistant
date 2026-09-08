@@ -17,8 +17,8 @@ Radiologists face high patient volumes and diagnostic fatigue, particularly for 
 ## Try It Yourself
 
 Sample X-rays included for quick testing:
-- [Normal chest X-ray](samples/normal.png)
-- [Pneumonia chest X-ray](samples/pneumonia.png)
+- [Normal chest X-ray](samplesnormal.jpeg)
+- [Pneumonia chest X-ray](samplespneumonia.jpeg)
 
 Download and upload either to the [live demo](https://medical-diagnosis-assistant-gilt.vercel.app/) to see the model + Grad-CAM output.
 
