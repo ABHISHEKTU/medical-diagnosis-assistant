@@ -12,12 +12,10 @@ Radiologists face high patient volumes and diagnostic fatigue, particularly for 
 - **Backend API docs:** https://abhishektu-medical-diagnosis-backend.hf.space/docs
 - **Model weights:** https://huggingface.co/abhishektu/chest-xray-resnet50
 
-<!<img width="1901" height="870" alt="Screenshot 2026-09-08 105821" src="https://github.com/user-attachments/assets/67434b9b-05c0-4962-8fba-aefb6968817d" />
+<img width="1901" height="870" alt="Screenshot 2026-09-08 105821" src="https://github.com/user-attachments/assets/67434b9b-05c0-4962-8fba-aefb6968817d" />
 <img width="1897" height="867" alt="08-09-2026(1)" src="https://github.com/user-attachments/assets/8df492d5-66dd-4de6-a882-4f175c6fe95d" />
 <img width="1897" height="867" alt="08-09-2026(2)" src="https://github.com/user-attachments/assets/1f026f5d-93cf-4d70-ac17-9001a44a50ce" />
 
-
--- Add 1-2 screenshots or a short GIF here showing: (1) X-ray upload, (2) Grad-CAM heatmap output, (3) generated report -->
 
 ## Try It Yourself
 
