@@ -14,6 +14,14 @@ Radiologists face high patient volumes and diagnostic fatigue, particularly for 
 
 <!-- Add 1-2 screenshots or a short GIF here showing: (1) X-ray upload, (2) Grad-CAM heatmap output, (3) generated report -->
 
+## Try It Yourself
+
+Sample X-rays included for quick testing:
+- [Normal chest X-ray](samples/normal.png)
+- [Pneumonia chest X-ray](samples/pneumonia.png)
+
+Download and upload either to the [live demo](https://medical-diagnosis-assistant-gilt.vercel.app/) to see the model + Grad-CAM output.
+
 ## Architecture
 
 ```
