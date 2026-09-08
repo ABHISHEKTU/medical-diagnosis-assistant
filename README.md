@@ -36,7 +36,9 @@ Radiologists face high patient volumes and diagnostic fatigue, particularly for 
 ## Dataset
 
 <!-- Fill in: e.g. NIH ChestX-ray14, Kaggle Chest X-Ray Pneumonia dataset — name, size, split -->
-Trained on **[dataset name]**, containing **[N] images** across **[classes]**, split **[train/val/test ratio]**.
+Trained on the Kermany Chest X-Ray dataset, containing 
+5,856 images across 2 classes (Normal and Pneumonia), 
+split 89% train / 11% test.
 
 ## Tech Stack
 
