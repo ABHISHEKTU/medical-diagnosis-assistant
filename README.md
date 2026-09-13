@@ -114,5 +114,8 @@ medical-diagnosis-assistant/
 - No authentication/patient-data handling layer — not HIPAA-compliant as-is, by design (research/demo project only)
 - Planned: expand RAG knowledge base with more clinical literature, add confidence calibration
 
+## License
+
+This project is licensed under the [MIT License](LICENSE) — free to use, modify, and learn from.
 
 **Disclaimer:** This is a research/portfolio project, not a certified medical device. Not intended for clinical diagnostic use.
